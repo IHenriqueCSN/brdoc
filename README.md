@@ -8,11 +8,11 @@ A lightweight, fast, and reliable Python library for validating, formatting, and
 
 ## Features
 
-✨ **Easy to use** - Simple, intuitive API  
-⚡ **Fast** - Pure Python implementation with no dependencies  
-🔒 **Reliable** - Comprehensive test coverage  
-📝 **Well documented** - Clear examples and docstrings  
-🎯 **Type hints** - Full typing support for better IDE integration  
+**Easy to use** - Simple, intuitive API  
+**Fast** - Pure Python implementation with no dependencies  
+**Reliable** - Comprehensive test coverage  
+**Well documented** - Clear examples and docstrings  
+**Type hints** - Full typing support for better IDE integration  
 
 ## Installation
 
@@ -23,7 +23,7 @@ pip install brdoc
 Or install from source:
 
 ```bash
-git clone https://github.com/yourusername/brdoc.git
+git clone https://github.com/IHenriqueCSN/brdoc.git
 cd brdoc
 pip install -e .
 ```
@@ -246,8 +246,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Support
 
-If you encounter any issues or have questions, please file an issue on the [GitHub issue tracker](https://github.com/yourusername/brdoc/issues).
-
----
-
-Made with ❤️ for the Brazilian Python community
+If you encounter any issues or have questions, please file an issue on the [GitHub issue tracker](https://github.com/IHenriqueCSN/brdoc/issues).

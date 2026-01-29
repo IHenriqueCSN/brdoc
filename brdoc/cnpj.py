@@ -2,9 +2,7 @@
 
 import re
 import random
-from typing import Optional
 from .exceptions import InvalidCNPJError
-
 
 class CNPJ:
     """
@@ -61,10 +59,11 @@ class CNPJ:
         Raises:
             InvalidCNPJError: If CNPJ doesn't have exactly 14 digits
         """
-        if len(self._digits) != 14:
-            raise InvalidCNPJError(f"CNPJ must have 14 digits, got {len(self._digits)}")
+        digits = self._digits
+        if len(digits) != 14:
+            raise InvalidCNPJError(f"CNPJ must have 14 digits, got {len(digits)}")
 
-        return f"{self._digits[:2]}.{self._digits[2:5]}.{self._digits[5:8]}/{self._digits[8:12]}-{self._digits[12:]}"
+        return f"{digits[:2]}.{digits[2:5]}.{digits[5:8]}/{digits[8:12]}-{digits[12:]}"
 
     def is_valid(self) -> bool:
         """

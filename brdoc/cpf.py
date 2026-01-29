@@ -2,9 +2,7 @@
 
 import re
 import random
-from typing import Optional
 from .exceptions import InvalidCPFError
-
 
 class CPF:
     """
