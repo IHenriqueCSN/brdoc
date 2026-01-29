@@ -4,6 +4,7 @@ import re
 import random
 from .exceptions import InvalidCPFError
 
+
 class CPF:
     """
     CPF validator, formatter, and generator.

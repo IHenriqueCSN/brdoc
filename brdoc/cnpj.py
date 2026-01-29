@@ -4,6 +4,7 @@ import re
 import random
 from .exceptions import InvalidCNPJError
 
+
 class CNPJ:
     """
     CNPJ validator, formatter, and generator.
